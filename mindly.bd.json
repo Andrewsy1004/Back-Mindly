@@ -1,0 +1,13 @@
+{
+  "Usuario": {
+    "id": 0,   
+    "nombre": "",
+    "correo": "",
+    "contrasena": "",
+    "roles": ["",""],
+    "profesion": "",
+    "biografia": "",
+    "fotoPerfil": "",
+    "estado": "false || true"
+  }
+}

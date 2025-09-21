@@ -1,0 +1,84 @@
+{
+  "Usuarios": [
+    {
+      "nombre": "Andrés Sosa",
+      "correo": "andres.sosa@mail.com",
+      "contrasena": "123456",
+      "profesion": "Estudiante de Ingeniería de Sistemas",
+      "biografia": "Apasionado por la tecnología, la investigación y la inteligencia artificial.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "nombre": "Laura Martínez",
+      "correo": "laura.martinez@mail.com",
+      "contrasena": "123456",
+      "profesion": "Médica General",
+      "biografia": "Profesional dedicada a la atención primaria y la salud preventiva.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "nombre": "Carlos Ramírez",
+      "correo": "carlos.ramirez@mail.com",
+      "contrasena": "123456",
+      "profesion": "Ingeniero Civil",
+      "biografia": "Especializado en estructuras y proyectos de infraestructura.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "nombre": "Mariana Torres",
+      "correo": "mariana.torres@mail.com",
+      "contrasena": "123456",
+      "profesion": "Diseñadora Gráfica",
+      "biografia": "Creativa y apasionada por el diseño digital y la identidad visual.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "nombre": "David Gómez",
+      "correo": "david.gomez@mail.com",
+      "contrasena": "123456",
+      "profesion": "Profesor de Matemáticas",
+      "biografia": "Amante de la educación y del aprendizaje colaborativo.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "nombre": "Sofía Herrera",
+      "correo": "sofia.herrera@mail.com",
+      "contrasena": "123456",
+      "profesion": "Abogada",
+      "biografia": "Especialista en derecho laboral y defensa de derechos humanos.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "nombre": "Julián Pérez",
+      "correo": "julian.perez@mail.com",
+      "contrasena": "123456",
+      "profesion": "Administrador de Empresas",
+      "biografia": "Con experiencia en gestión de proyectos y liderazgo empresarial.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "nombre": "Camila López",
+      "correo": "camila.lopez@mail.com",
+      "contrasena": "123456",
+      "profesion": "Psicóloga",
+      "biografia": "Apasionada por la salud mental y el bienestar emocional.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "nombre": "Felipe Castro",
+      "correo": "felipe.castro@mail.com",
+      "contrasena": "123456",
+      "profesion": "Ingeniero de Software",
+      "biografia": "Desarrollador fullstack con interés en inteligencia artificial.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "nombre": "Valentina Ríos",
+      "correo": "valentina.rios@mail.com",
+      "contrasena": "123456",
+      "profesion": "Periodista",
+      "biografia": "Comprometida con la comunicación transparente y objetiva.",
+      "fotoPerfil": "https://randomuser.me/api/portraits/women/10.jpg"
+    }
+  ]
+}

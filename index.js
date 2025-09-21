@@ -5,6 +5,7 @@ import 'dotenv/config';
 
 import {dbConnection} from './database/config.js';
 import UsuarioRoute from './routes/usuario.route.js';
+import SeedRoute from './routes/seed.route.js';
 
 
 const corsOptions = {
@@ -25,6 +26,7 @@ app.use(cors(corsOptions));
 
 // Routes
 app.use('/api/usuarios', UsuarioRoute);
+app.use('/api/seed', SeedRoute);
 
 
 app.get('/', (req, res) => {

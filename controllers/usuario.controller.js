@@ -132,7 +132,7 @@ export const ActualizarInfoUsuario = async (req, res) => {
     return res.status(200).json({
       ok: true,
       message: 'Informacion actualizada',
-      usuarioActualizado,
+      usuario: usuarioActualizado,
       token
     })
 

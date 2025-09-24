@@ -179,3 +179,30 @@ export const UsuariosSimilares = async (req, res) => {
     }) 
   }
 }
+
+export const ObtenerUsuarioPorId = async (req, res) => {
+   
+  try {
+    const { id } = req.params;
+    const usuario = await UsuarioModelo.findById(id);
+    
+    if(!usuario){
+      return res.status(404).json({
+        ok: false,
+        message: 'El usuario no existe'
+      })
+    }
+
+    return res.status(200).json({
+      ok: true,
+      usuario
+    })
+
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({
+      ok: false,
+      message: 'Error'
+    }) 
+  }
+}

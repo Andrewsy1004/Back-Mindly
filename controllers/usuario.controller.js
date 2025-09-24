@@ -160,10 +160,8 @@ export const UsuariosSimilares = async (req, res) => {
       .sort((a, b) => b.score - a.score)
       .slice(0, 10);
       
-      return res.json({
-       ok: true,
-       usuarioBase: usuarioBase.nombre,
-       similares: recomendaciones.map(r => ({
+      return res.status(200).json({
+       usuarios: recomendaciones.map(r => ({
         id: r.usuario._id,
         nombre: r.usuario.nombre,
         correo: r.usuario.correo,

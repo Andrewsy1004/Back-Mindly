@@ -6,7 +6,7 @@
       "contrasena": "123456",
       "profesion": "Estudiante de Ingeniería de Sistemas",
       "biografia": "Apasionado por la tecnología, la investigación y la inteligencia artificial.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/1.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Andrés+Sosa&background=random&seed=123&size=150"
     },
     {
       "nombre": "Laura Martínez",
@@ -14,7 +14,7 @@
       "contrasena": "123456",
       "profesion": "Médica General",
       "biografia": "Profesional dedicada a la atención primaria y la salud preventiva.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/2.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Laura+Martínez&background=random&seed=456&size=150"
     },
     {
       "nombre": "Carlos Ramírez",
@@ -22,7 +22,7 @@
       "contrasena": "123456",
       "profesion": "Ingeniero Civil",
       "biografia": "Especializado en estructuras y proyectos de infraestructura.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/3.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Carlos+Ramírez&background=random&seed=789&size=150"
     },
     {
       "nombre": "Mariana Torres",
@@ -30,7 +30,7 @@
       "contrasena": "123456",
       "profesion": "Diseñadora Gráfica",
       "biografia": "Creativa y apasionada por el diseño digital y la identidad visual.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/4.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Mariana+Torres&background=random&seed=321&size=150"
     },
     {
       "nombre": "David Gómez",
@@ -38,7 +38,7 @@
       "contrasena": "123456",
       "profesion": "Profesor de Matemáticas",
       "biografia": "Amante de la educación y del aprendizaje colaborativo.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/5.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=David+Gómez&background=random&seed=654&size=150"
     },
     {
       "nombre": "Sofía Herrera",
@@ -46,7 +46,7 @@
       "contrasena": "123456",
       "profesion": "Abogada",
       "biografia": "Especialista en derecho laboral y defensa de derechos humanos.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/6.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Sofía+Herrera&background=random&seed=987&size=150"
     },
     {
       "nombre": "Julián Pérez",
@@ -54,7 +54,7 @@
       "contrasena": "123456",
       "profesion": "Administrador de Empresas",
       "biografia": "Con experiencia en gestión de proyectos y liderazgo empresarial.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/7.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Julián+Pérez&background=random&seed=147&size=150"
     },
     {
       "nombre": "Camila López",
@@ -62,7 +62,7 @@
       "contrasena": "123456",
       "profesion": "Psicóloga",
       "biografia": "Apasionada por la salud mental y el bienestar emocional.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/8.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Camila+López&background=random&seed=258&size=150"
     },
     {
       "nombre": "Felipe Castro",
@@ -70,7 +70,7 @@
       "contrasena": "123456",
       "profesion": "Ingeniero de Software",
       "biografia": "Desarrollador fullstack con interés en inteligencia artificial.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/9.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Felipe+Castro&background=random&seed=369&size=150"
     },
     {
       "nombre": "Valentina Ríos",
@@ -78,7 +78,7 @@
       "contrasena": "123456",
       "profesion": "Periodista",
       "biografia": "Comprometida con la comunicación transparente y objetiva.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/10.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Valentina+Ríos&background=random&seed=741&size=150"
     }
   ]
 }

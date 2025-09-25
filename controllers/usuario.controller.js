@@ -167,7 +167,8 @@ export const UsuariosSimilares = async (req, res) => {
         correo: r.usuario.correo,
         profesion: r.usuario.profesion,
         similitud: r.score.toFixed(2),
-        fotoPerfil: r.usuario.fotoPerfil
+        fotoPerfil: r.usuario.fotoPerfil,
+        biografia: r.usuario.biografia
       }))
     })
 

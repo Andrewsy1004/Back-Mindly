@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { check } from 'express-validator';
 
-import { CrearNuevoPost, ObtenerPosts } from '../controllers/post.controller.js';
+import { CrearNuevoPost, ObtenerPosts, ObtenerTodosLosPosts } from '../controllers/post.controller.js';
 
 import {validarCampos} from '../middlewares/validarCampos.js';
 import { ValidarJwt } from '../middlewares/validar-jwt.js';
@@ -28,6 +28,8 @@ router.get('/post-recomendados',
   ],
   ObtenerPosts
 );
+
+router.get('/post-usuario', ObtenerTodosLosPosts );
 
 
 export default router;

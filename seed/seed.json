@@ -109,7 +109,7 @@
     {
       "titulo": "Tendencias en diseño gráfico digital",
       "descripcion": "Exploramos las últimas tendencias en branding, ilustración y diseño UI/UX.",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpJCTptYfnXd9eSVLfWYGuA2pTpfZDur3AfA&s",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGhm2To0bnTh70YlPL0oiBQR_6b8hykTEmw&s",
       "categoria": "Arte",
       "tags": ["diseño", "branding", "ux"],
       "usuario": "Mariana Torres"
@@ -164,7 +164,7 @@
     },{
     "titulo": "Avances en cirugía mínimamente invasiva",
     "descripcion": "Cómo la tecnología ha mejorado la recuperación y reducido complicaciones en cirugías modernas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CirugiaX1",
+    "imagen": "https://imgs.search.brave.com/0JyfI0EKuWjLBWWWadZqKxjFSrUfPai9niqlSJfFgAs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hZG9t/aWNpbGlvc2FsdWQu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA2L2NpcnVn/aWEtZ2VuZXJhbC0x/MTcweDY1OC5qcGc",
     "categoria": "Salud",
     "tags": ["cirugía", "tecnología médica", "salud"],
     "usuario": "Laura Martínez"
@@ -172,7 +172,7 @@
   {
     "titulo": "Blockchain en la industria financiera",
     "descripcion": "El impacto de la tecnología blockchain en bancos y fintechs alrededor del mundo.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BlockchainF2",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7RiH7IflRYsw27Pkz13mXqqcxjywIKWTgQ&s",
     "categoria": "Negocios",
     "tags": ["blockchain", "finanzas", "criptomonedas"],
     "usuario": "Julián Pérez"
@@ -180,7 +180,7 @@
   {
     "titulo": "Arquitectura colonial en América Latina",
     "descripcion": "Un recorrido histórico por las principales construcciones coloniales.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ColonialA3",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjymEdakr939PrPx5NTgDcsMDz4JL-Z-17WA&s",
     "categoria": "Arte",
     "tags": ["arquitectura", "historia", "patrimonio"],
     "usuario": "Mariana Torres"
@@ -188,7 +188,7 @@
   {
     "titulo": "Neurociencia y aprendizaje",
     "descripcion": "Qué nos dice la ciencia del cerebro sobre cómo aprendemos mejor.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NeuroA4",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNMEG8DPZcZXE-adgQCli4tx4jXYKoGG7CEw&s",
     "categoria": "Educación",
     "tags": ["neurociencia", "aprendizaje", "psicología"],
     "usuario": "David Gómez"
@@ -196,7 +196,7 @@
   {
     "titulo": "Cambio climático y sostenibilidad",
     "descripcion": "El rol de la ciencia y la ciudadanía en mitigar los efectos del cambio climático.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ClimaA5",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReWThDGAaBohj0SkwUcSaCjYl1kInwX8RKKA&s",
     "categoria": "Ciencia",
     "tags": ["cambio climático", "medio ambiente", "sostenibilidad"],
     "usuario": "Carlos Ramírez"
@@ -204,7 +204,7 @@
   {
     "titulo": "Ciberseguridad en el hogar",
     "descripcion": "Buenas prácticas para proteger dispositivos y datos personales en redes domésticas.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9CyberA6",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30qs0Q3uWCv-dUvdeky9Hb_6giQx_pN14Vg&s",
     "categoria": "Tecnología",
     "tags": ["ciberseguridad", "internet", "privacidad"],
     "usuario": "Andrés Sosa"
@@ -212,7 +212,7 @@
   {
     "titulo": "El impacto de la música en el cerebro",
     "descripcion": "Cómo diferentes géneros musicales estimulan emociones y procesos cognitivos.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9MusicA7",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRije0p_ja_odXwdoyE-WV1pl4GB1BZw1ufTg&s",
     "categoria": "Salud",
     "tags": ["música", "cerebro", "bienestar"],
     "usuario": "Camila López"
@@ -220,7 +220,7 @@
   {
     "titulo": "Derecho ambiental y protección de recursos",
     "descripcion": "Leyes y normativas clave para proteger ecosistemas en riesgo.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9DerechoAmb8",
+    "imagen": "https://imgs.search.brave.com/B4Xww7byd3jtGaEmMGCYlDcgHbY9PHSeqz3vSHTByBM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vc2lyaW5hcGEv/c2lyaW5hcGEyMTA2/L3NpcmluYXBhMjEw/NjAwMDU4LzE3MDg1/MTU4Mi1lbmVyZyVD/MyVBRGEtdmVyZGUt/cmVjdXJzb3MtcmVu/b3ZhYmxlcy15LXNv/c3RlbmlibGVzLWNv/bmNlcHRvLWRlLWN1/aWRhZG8tYW1iaWVu/dGFsLXktZWNvbCVD/MyVCM2dpY28tY2Vy/Y2EuanBnP3Zlcj02",
     "categoria": "Derecho",
     "tags": ["derecho ambiental", "leyes", "ecosistemas"],
     "usuario": "Sofía Herrera"
@@ -228,7 +228,7 @@
   {
     "titulo": "Emprendimiento social: negocios con propósito",
     "descripcion": "Modelos de negocio enfocados en generar impacto positivo en comunidades.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9EmpSoc9",
+    "imagen": "https://imgs.search.brave.com/xbXHwuWjmzzlPgA_0By-PzqZNmmfpZyvSiqZ2e8_X0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGlkZXJlbXByZXNh/cmlhbC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjUvMDkv/eXVudXMtdHVnLWlh/Y05ONHhoTUNnLXVu/c3BsYXNoLTc1MHg1/MDAuanBn",
     "categoria": "Negocios",
     "tags": ["emprendimiento", "impacto social", "innovación"],
     "usuario": "Julián Pérez"
@@ -236,7 +236,7 @@
   {
     "titulo": "Inteligencia Artificial en diagnósticos médicos",
     "descripcion": "Cómo la IA ayuda a los médicos a detectar enfermedades con mayor precisión.",
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9IAMedic10",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgGY_DNsn3qaILxPeWxfNKWMbN3SjLcgizA&s",
     "categoria": "Salud",
     "tags": ["ia", "diagnóstico", "medicina"],
     "usuario": "Laura Martínez"

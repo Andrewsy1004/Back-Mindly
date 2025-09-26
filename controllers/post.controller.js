@@ -222,7 +222,7 @@ export const ObtenerPosts = async (req, res) => {
             "usuario.nombre": 1,
             "usuario.fotoPerfil": 1,
             "usuario._id": 1,
-            score: 1, // lo dejamos visible para debug
+            score: 1, 
           },
         },
       ]);
@@ -253,4 +253,33 @@ export const ObtenerPosts = async (req, res) => {
 };
 
 
+export const ObtenerTodosLosPosts = async (req, res) => {
+   try {
+    
+     const posts = await postModelo
+       .find({ estado: true })
+       .populate("usuario", "nombre fotoPerfil correo profesion ")
+       .sort({ createdAt: -1 });
+     
+      // En caso de no tener posts
+      if (!posts || posts.length === 0) {
+        return res.status(404).json({
+          ok: false,
+          message: "No se encontraron posts",
+        });
+      }
 
+     return res.status(200).json({
+       ok: true,
+       message: "Posts obtenidos correctamente",
+       posts,
+     });
+
+   } catch (error) {
+     console.log(error);
+     return res.status(500).json({
+      ok: false,
+      message: "Error al obtener posts",
+    });
+   } 
+}

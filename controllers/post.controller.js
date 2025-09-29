@@ -283,3 +283,43 @@ export const ObtenerTodosLosPosts = async (req, res) => {
     });
    } 
 }
+
+export const EliminarPostPorId = async (req, res) => {
+  try {
+
+    const { id } = req.params;
+    
+    // Buscar el post 
+    const post = await postModelo.findById(id);
+    if(!post){
+      return res.status(404).json({
+        ok: false,
+        message: "Post no encontrado",
+      });
+    }
+    
+    // Verificar si el post pertenece al usuario
+    if (post.usuario.toString() !== req.usuario._id.toString()) {
+      return res.status(401).json({
+        ok: false,
+        message: "No autorizado",
+      });
+    }
+
+    // Actualizar el post
+    await postModelo.findByIdAndUpdate(id, { estado: false });
+    
+    return res.status(200).json({
+      ok: true,
+      message: "Post eliminado correctamente",
+    });
+    
+  }catch (error) {
+    console.log(error);
+     return res.status(500).json({
+      ok: false,
+      message: "Error al obtener posts",
+    });
+  }
+}
+

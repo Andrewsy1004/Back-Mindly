@@ -9,5 +9,22 @@
     "biografia": "",
     "fotoPerfil": "",
     "estado": "false || true"
+  },
+  "posts": {
+    "id": 0,
+    "titulo": "",
+    "descripcion": "",
+    "imagen": "",
+    "categoria": "",
+    "tags": [""],
+    "usuario": 0,
+    "estado": "false || true"
+  },
+  "Comentario": {
+    "id": 0,
+    "descripcion": "",
+    "estado": "false || true",
+    "post": 0,
+    "usuario": 0
   }
 }

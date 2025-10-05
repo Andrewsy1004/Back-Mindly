@@ -6,6 +6,7 @@ import 'dotenv/config';
 import {dbConnection} from './database/config.js';
 import UsuarioRoute from './routes/usuario.route.js';
 import SeedRoute from './routes/seed.route.js';
+import PostRoute from './routes/post.route.js';
 
 
 const corsOptions = {
@@ -27,7 +28,7 @@ app.use(cors(corsOptions));
 // Routes
 app.use('/api/usuarios', UsuarioRoute);
 app.use('/api/seed', SeedRoute);
-
+app.use('/api/posts', PostRoute);
 
 app.get('/', (req, res) => {
     res.send('Hola desde el backend de Mindly !! ');

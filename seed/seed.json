@@ -6,7 +6,7 @@
       "contrasena": "123456",
       "profesion": "Estudiante de Ingeniería de Sistemas",
       "biografia": "Apasionado por la tecnología, la investigación y la inteligencia artificial.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/1.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Andrés+Sosa&background=random&seed=123&size=150"
     },
     {
       "nombre": "Laura Martínez",
@@ -14,7 +14,7 @@
       "contrasena": "123456",
       "profesion": "Médica General",
       "biografia": "Profesional dedicada a la atención primaria y la salud preventiva.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/2.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Laura+Martínez&background=random&seed=456&size=150"
     },
     {
       "nombre": "Carlos Ramírez",
@@ -22,7 +22,7 @@
       "contrasena": "123456",
       "profesion": "Ingeniero Civil",
       "biografia": "Especializado en estructuras y proyectos de infraestructura.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/3.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Carlos+Ramírez&background=random&seed=789&size=150"
     },
     {
       "nombre": "Mariana Torres",
@@ -30,7 +30,7 @@
       "contrasena": "123456",
       "profesion": "Diseñadora Gráfica",
       "biografia": "Creativa y apasionada por el diseño digital y la identidad visual.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/4.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Mariana+Torres&background=random&seed=321&size=150"
     },
     {
       "nombre": "David Gómez",
@@ -38,7 +38,7 @@
       "contrasena": "123456",
       "profesion": "Profesor de Matemáticas",
       "biografia": "Amante de la educación y del aprendizaje colaborativo.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/5.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=David+Gómez&background=random&seed=654&size=150"
     },
     {
       "nombre": "Sofía Herrera",
@@ -46,7 +46,7 @@
       "contrasena": "123456",
       "profesion": "Abogada",
       "biografia": "Especialista en derecho laboral y defensa de derechos humanos.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/6.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Sofía+Herrera&background=random&seed=987&size=150"
     },
     {
       "nombre": "Julián Pérez",
@@ -54,7 +54,7 @@
       "contrasena": "123456",
       "profesion": "Administrador de Empresas",
       "biografia": "Con experiencia en gestión de proyectos y liderazgo empresarial.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/7.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Julián+Pérez&background=random&seed=147&size=150"
     },
     {
       "nombre": "Camila López",
@@ -62,7 +62,7 @@
       "contrasena": "123456",
       "profesion": "Psicóloga",
       "biografia": "Apasionada por la salud mental y el bienestar emocional.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/8.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Camila+López&background=random&seed=258&size=150"
     },
     {
       "nombre": "Felipe Castro",
@@ -70,7 +70,7 @@
       "contrasena": "123456",
       "profesion": "Ingeniero de Software",
       "biografia": "Desarrollador fullstack con interés en inteligencia artificial.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/men/9.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Felipe+Castro&background=random&seed=369&size=150"
     },
     {
       "nombre": "Valentina Ríos",
@@ -78,7 +78,168 @@
       "contrasena": "123456",
       "profesion": "Periodista",
       "biografia": "Comprometida con la comunicación transparente y objetiva.",
-      "fotoPerfil": "https://randomuser.me/api/portraits/women/10.jpg"
+      "fotoPerfil": "https://ui-avatars.com/api/?name=Valentina+Ríos&background=random&seed=741&size=150"
     }
+  ],
+   "Posts": [
+    {
+      "titulo": "Introducción a Flutter",
+      "descripcion": "Este post explica los conceptos básicos de Flutter y cómo empezar a crear apps móviles.",
+      "imagen": "https://yt3.googleusercontent.com/ytc/AIdro_nqx_sCd8ZIeIcodS0sfeMKJ8rVTslmQHUe_udwGNH2Pg=s900-c-k-c0x00ffffff-no-rj",
+      "categoria": "Tecnología",
+      "tags": ["flutter", "mobile", "dart"],
+      "usuario": "Andrés Sosa"
+    },
+    {
+      "titulo": "La importancia de la prevención en salud",
+      "descripcion": "Consejos prácticos para mantener un estilo de vida saludable y prevenir enfermedades comunes.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR26RCCwDpQxbDQCXR7Kav41TAF9aNC6YzvjA&s",
+      "categoria": "Salud",
+      "tags": ["prevención", "bienestar", "vida-saludable"],
+      "usuario": "Laura Martínez"
+    },
+    {
+      "titulo": "Estructuras modernas en ingeniería civil",
+      "descripcion": "Un repaso a los avances en diseño de estructuras para proyectos de gran escala.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpJCTptYfnXd9eSVLfWYGuA2pTpfZDur3AfA&s",
+      "categoria": "Ciencia",
+      "tags": ["ingeniería", "estructuras", "infraestructura"],
+      "usuario": "Carlos Ramírez"
+    },
+    {
+      "titulo": "Tendencias en diseño gráfico digital",
+      "descripcion": "Exploramos las últimas tendencias en branding, ilustración y diseño UI/UX.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGhm2To0bnTh70YlPL0oiBQR_6b8hykTEmw&s",
+      "categoria": "Arte",
+      "tags": ["diseño", "branding", "ux"],
+      "usuario": "Mariana Torres"
+    },
+    {
+      "titulo": "Cómo enseñar matemáticas de forma divertida",
+      "descripcion": "Ideas y estrategias para que los estudiantes disfruten el aprendizaje de las matemáticas.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4g0jinpykw4xWqLWHpKUw_ZIPhI7LbHqaEw&s",
+      "categoria": "Educación",
+      "tags": ["enseñanza", "matemáticas", "aprendizaje"],
+      "usuario": "David Gómez"
+    },
+    {
+      "titulo": "Los retos del derecho laboral en la era digital",
+      "descripcion": "Un análisis sobre cómo las nuevas tecnologías impactan el mundo laboral y el derecho.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtMNcwseEMyVLdoxTsuI9XXLcvBOVCS1KDjw&s",
+      "categoria": "Negocios",
+      "tags": ["derecho", "laboral", "tecnología"],
+      "usuario": "Sofía Herrera"
+    },
+    {
+      "titulo": "Liderazgo en tiempos de cambio",
+      "descripcion": "Reflexiones sobre cómo liderar equipos en un entorno empresarial dinámico.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtMNcwseEMyVLdoxTsuI9XXLcvBOVCS1KDjw&s",
+      "categoria": "Negocios",
+      "tags": ["liderazgo", "gestión", "empresas"],
+      "usuario": "Julián Pérez"
+    },
+    {
+      "titulo": "La importancia de la salud mental",
+      "descripcion": "Estrategias para cuidar el bienestar emocional y manejar el estrés en la vida cotidiana.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjNUVdEU3PqdkDc75qxaPcpo_DzLeIiIT_Ow&s",
+      "categoria": "Salud",
+      "tags": ["psicología", "bienestar", "salud-mental"],
+      "usuario": "Camila López"
+    },
+    {
+      "titulo": "Inteligencia Artificial aplicada al software",
+      "descripcion": "Un recorrido por las aplicaciones más recientes de la IA en el desarrollo de software.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6La4tqT57n3-LmKC6jVIuxvlZF4fHLf1ZAw&s",
+      "categoria": "Tecnología",
+      "tags": ["ia", "machine learning", "software"],
+      "usuario": "Felipe Castro"
+    },
+    {
+      "titulo": "El rol del periodismo en la sociedad actual",
+      "descripcion": "Cómo los periodistas enfrentan el reto de la inmediatez y la transparencia informativa.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6La4tqT57n3-LmKC6jVIuxvlZF4fHLf1ZAw&s",
+      "categoria": "Actualidad",
+      "tags": ["periodismo", "sociedad", "comunicación"],
+      "usuario": "Valentina Ríos"
+    },{
+    "titulo": "Avances en cirugía mínimamente invasiva",
+    "descripcion": "Cómo la tecnología ha mejorado la recuperación y reducido complicaciones en cirugías modernas.",
+    "imagen": "https://imgs.search.brave.com/0JyfI0EKuWjLBWWWadZqKxjFSrUfPai9niqlSJfFgAs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hZG9t/aWNpbGlvc2FsdWQu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE5LzA2L2NpcnVn/aWEtZ2VuZXJhbC0x/MTcweDY1OC5qcGc",
+    "categoria": "Salud",
+    "tags": ["cirugía", "tecnología médica", "salud"],
+    "usuario": "Laura Martínez"
+  },
+  {
+    "titulo": "Blockchain en la industria financiera",
+    "descripcion": "El impacto de la tecnología blockchain en bancos y fintechs alrededor del mundo.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7RiH7IflRYsw27Pkz13mXqqcxjywIKWTgQ&s",
+    "categoria": "Negocios",
+    "tags": ["blockchain", "finanzas", "criptomonedas"],
+    "usuario": "Julián Pérez"
+  },
+  {
+    "titulo": "Arquitectura colonial en América Latina",
+    "descripcion": "Un recorrido histórico por las principales construcciones coloniales.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjymEdakr939PrPx5NTgDcsMDz4JL-Z-17WA&s",
+    "categoria": "Arte",
+    "tags": ["arquitectura", "historia", "patrimonio"],
+    "usuario": "Mariana Torres"
+  },
+  {
+    "titulo": "Neurociencia y aprendizaje",
+    "descripcion": "Qué nos dice la ciencia del cerebro sobre cómo aprendemos mejor.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNMEG8DPZcZXE-adgQCli4tx4jXYKoGG7CEw&s",
+    "categoria": "Educación",
+    "tags": ["neurociencia", "aprendizaje", "psicología"],
+    "usuario": "David Gómez"
+  },
+  {
+    "titulo": "Cambio climático y sostenibilidad",
+    "descripcion": "El rol de la ciencia y la ciudadanía en mitigar los efectos del cambio climático.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReWThDGAaBohj0SkwUcSaCjYl1kInwX8RKKA&s",
+    "categoria": "Ciencia",
+    "tags": ["cambio climático", "medio ambiente", "sostenibilidad"],
+    "usuario": "Carlos Ramírez"
+  },
+  {
+    "titulo": "Ciberseguridad en el hogar",
+    "descripcion": "Buenas prácticas para proteger dispositivos y datos personales en redes domésticas.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30qs0Q3uWCv-dUvdeky9Hb_6giQx_pN14Vg&s",
+    "categoria": "Tecnología",
+    "tags": ["ciberseguridad", "internet", "privacidad"],
+    "usuario": "Andrés Sosa"
+  },
+  {
+    "titulo": "El impacto de la música en el cerebro",
+    "descripcion": "Cómo diferentes géneros musicales estimulan emociones y procesos cognitivos.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRije0p_ja_odXwdoyE-WV1pl4GB1BZw1ufTg&s",
+    "categoria": "Salud",
+    "tags": ["música", "cerebro", "bienestar"],
+    "usuario": "Camila López"
+  },
+  {
+    "titulo": "Derecho ambiental y protección de recursos",
+    "descripcion": "Leyes y normativas clave para proteger ecosistemas en riesgo.",
+    "imagen": "https://imgs.search.brave.com/B4Xww7byd3jtGaEmMGCYlDcgHbY9PHSeqz3vSHTByBM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vc2lyaW5hcGEv/c2lyaW5hcGEyMTA2/L3NpcmluYXBhMjEw/NjAwMDU4LzE3MDg1/MTU4Mi1lbmVyZyVD/MyVBRGEtdmVyZGUt/cmVjdXJzb3MtcmVu/b3ZhYmxlcy15LXNv/c3RlbmlibGVzLWNv/bmNlcHRvLWRlLWN1/aWRhZG8tYW1iaWVu/dGFsLXktZWNvbCVD/MyVCM2dpY28tY2Vy/Y2EuanBnP3Zlcj02",
+    "categoria": "Derecho",
+    "tags": ["derecho ambiental", "leyes", "ecosistemas"],
+    "usuario": "Sofía Herrera"
+  },
+  {
+    "titulo": "Emprendimiento social: negocios con propósito",
+    "descripcion": "Modelos de negocio enfocados en generar impacto positivo en comunidades.",
+    "imagen": "https://imgs.search.brave.com/xbXHwuWjmzzlPgA_0By-PzqZNmmfpZyvSiqZ2e8_X0A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGlkZXJlbXByZXNh/cmlhbC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjUvMDkv/eXVudXMtdHVnLWlh/Y05ONHhoTUNnLXVu/c3BsYXNoLTc1MHg1/MDAuanBn",
+    "categoria": "Negocios",
+    "tags": ["emprendimiento", "impacto social", "innovación"],
+    "usuario": "Julián Pérez"
+  },
+  {
+    "titulo": "Inteligencia Artificial en diagnósticos médicos",
+    "descripcion": "Cómo la IA ayuda a los médicos a detectar enfermedades con mayor precisión.",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgGY_DNsn3qaILxPeWxfNKWMbN3SjLcgizA&s",
+    "categoria": "Salud",
+    "tags": ["ia", "diagnóstico", "medicina"],
+    "usuario": "Laura Martínez"
+  }
   ]
 }

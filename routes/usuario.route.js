@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { check } from 'express-validator';
 
-import { ActualizarInfoUsuario, CrearUsuario, Login, UsuariosSimilares, VerificarToken } from '../controllers/usuario.controller.js';
+import { ActualizarInfoUsuario, CrearUsuario, Login, ObtenerUsuarioPorId, UsuariosSimilares, VerificarToken } from '../controllers/usuario.controller.js';
 import { emailExiste  } from '../helpers/dbValidator.js';
 
 import {validarCampos} from '../middlewares/validarCampos.js';
@@ -48,5 +48,14 @@ router.put('/actualizar-usuario',
 );
 
 router.get('/obtener-usuario-gustos-similares', [ValidarJwt], UsuariosSimilares);
+
+router.get('/usuarios/:id',
+  [
+    check('id', 'El uid es obligatorio').not().isEmpty(),
+    check('id', 'El id no es válido, debe ser un id de mongo').isMongoId(),
+    validarCampos
+  ],
+  ObtenerUsuarioPorId
+);
 
 export default router;

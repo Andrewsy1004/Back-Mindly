@@ -132,7 +132,7 @@ export const ActualizarInfoUsuario = async (req, res) => {
     return res.status(200).json({
       ok: true,
       message: 'Informacion actualizada',
-      usuarioActualizado,
+      usuario: usuarioActualizado,
       token
     })
 
@@ -160,17 +160,43 @@ export const UsuariosSimilares = async (req, res) => {
       .sort((a, b) => b.score - a.score)
       .slice(0, 10);
       
-      return res.json({
-       ok: true,
-       usuarioBase: usuarioBase.nombre,
-       similares: recomendaciones.map(r => ({
+      return res.status(200).json({
+       usuarios: recomendaciones.map(r => ({
         id: r.usuario._id,
         nombre: r.usuario.nombre,
         correo: r.usuario.correo,
         profesion: r.usuario.profesion,
         similitud: r.score.toFixed(2),
-        fotoPerfil: r.usuario.fotoPerfil
+        fotoPerfil: r.usuario.fotoPerfil,
+        biografia: r.usuario.biografia
       }))
+    })
+
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({
+      ok: false,
+      message: 'Error'
+    }) 
+  }
+}
+
+export const ObtenerUsuarioPorId = async (req, res) => {
+   
+  try {
+    const { id } = req.params;
+    const usuario = await UsuarioModelo.findById(id);
+    
+    if(!usuario){
+      return res.status(404).json({
+        ok: false,
+        message: 'El usuario no existe'
+      })
+    }
+
+    return res.status(200).json({
+      ok: true,
+      usuario
     })
 
   } catch (error) {

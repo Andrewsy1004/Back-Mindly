@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import { check } from 'express-validator';
 
-import { CrearNuevoPost, EliminarPostPorId, ObtenerPosts, ObtenerTodosLosPosts } from '../controllers/post.controller.js';
+import { actualizarPost, CrearNuevoPost, EliminarPostPorId, ObtenerPosts, ObtenerTodosLosPosts } from '../controllers/post.controller.js';
 
 import {validarCampos} from '../middlewares/validarCampos.js';
 import { ValidarJwt } from '../middlewares/validar-jwt.js';
@@ -39,6 +39,21 @@ router.delete('/eliminar-post/:id',
    validarCampos
  ], 
  EliminarPostPorId
+);
+
+router.put('/actualizar-post', 
+  [
+    ValidarJwt, 
+    check('titulo', 'El titulo es obligatorio').not().isEmpty(),
+    check('descripcion', 'La descripcion es obligatoria').not().isEmpty(),
+    check('imagen', 'La imagen es obligatoria').not().isEmpty(),
+    check('categoria', 'La categoria es obligatoria').not().isEmpty(),
+    check('tags', 'Los tags son obligatorios').isArray(),
+    check('id', 'El id es obligatorio').not().isEmpty(),
+    check('id', 'El id no es valido, debe ser un id de mongo').isMongoId(),
+    validarCampos
+  ], 
+  actualizarPost 
 );
 
 export default router;

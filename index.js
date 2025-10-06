@@ -7,7 +7,7 @@ import {dbConnection} from './database/config.js';
 import UsuarioRoute from './routes/usuario.route.js';
 import SeedRoute from './routes/seed.route.js';
 import PostRoute from './routes/post.route.js';
-
+import ComentarioRoute from './routes/comentario.route.js';
 
 const corsOptions = {
     origin: '*',
@@ -29,6 +29,7 @@ app.use(cors(corsOptions));
 app.use('/api/usuarios', UsuarioRoute);
 app.use('/api/seed', SeedRoute);
 app.use('/api/posts', PostRoute);
+app.use('/api/comentarios', ComentarioRoute);
 
 app.get('/', (req, res) => {
     res.send('Hola desde el backend de Mindly !! ');

@@ -323,3 +323,40 @@ export const EliminarPostPorId = async (req, res) => {
   }
 }
 
+export const actualizarPost = async (req, res) => {
+  try {
+    const {titulo, descripcion, imagen, categoria, tags, id} = req.body;
+
+    // Buscar el post 
+    const post = await postModelo.findById(id);
+    if(!post){
+      return res.status(404).json({
+        ok: false,
+        message: "Post no encontrado",
+      });
+    }
+    
+    // Verificar si el post pertenece al usuario
+    if (post.usuario._id.toString() !== req.usuario._id.toString()) {
+      return res.status(401).json({
+        ok: false,
+        message: "No autorizado",
+      });
+    }
+
+    // Actualizar el post
+    await postModelo.findByIdAndUpdate(id, {titulo, descripcion, imagen, categoria, tags});
+    
+    return res.status(200).json({
+      ok: true,
+      message: "Post actualizado correctamente",
+    });
+    
+  }catch (error) {
+    console.log(error);
+    return res.status(500).json({
+      ok: false,
+      message: "Error al obtener posts",
+    });
+  }
+}
